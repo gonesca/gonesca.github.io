@@ -83,7 +83,74 @@ jQuery(function($){
 	/* End menu scrolling */
 	
 	/* ----------------------- */
-	/*   4. Contact buttom     */
+	/*     5. Scrollfire       */
 	/* ----------------------- */
+	
+	var options = [
+			{selector: '#show1', offset: 150, callback: function() {
+			Materialize.fadeInImage("#show1");
+			} },
+			{selector: '#show2', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show2");
+			} },
+			{selector: '#show3', offset: 150, callback: function() {
+			Materialize.fadeInImage("#show3");
+			} },
+			{selector: '#show4', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show4");
+			} },
+			{selector: '#show5', offset: 150, callback: function() {
+			Materialize.fadeInImage("#show5");
+			} },
+			{selector: '#show6', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show6");
+			} },
+			{selector: '#show7', offset: 80, callback: function() {
+			Materialize.fadeInImage("#show7");
+			} },
+			{selector: '#show8', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show8");
+			} },
+			{selector: '#show9', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show9");
+			} },
+			{selector: '#show10', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show10");
+			} },
+			{selector: '#show11', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show11");
+			} },
+			{selector: '#show12', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show12");
+			} },
+			{selector: '#show13', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show13");
+			} },
+			{selector: '#show14', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show14");
+			} },
+			{selector: '#show15', offset: 200, callback: function() {
+			Materialize.fadeInImage("#show15");
+			} },
+			{selector: '#show16', offset: 80, callback: function() {
+			Materialize.fadeInImage("#show16");
+			} },
+			{selector: '#show17', offset: 100, callback: function() {
+			Materialize.fadeInImage("#show17");
+			} },
+			{selector: '#show18', offset: 80, callback: function() {
+			Materialize.fadeInImage("#show18");
+			} },
+			{selector: '#show19', offset: 100, callback: function() {
+			Materialize.fadeInImage("#show19");
+			} },
+			{selector: '#show20', offset: 100, callback: function() {
+			Materialize.fadeInImage("#show20");
+			} },
+			{selector: '#contact_form', offset: 200, callback: function() {
+			Materialize.fadeInImage("#contact_form");
+			} }
+			];
+	Materialize.scrollFire(options);
 
 });
