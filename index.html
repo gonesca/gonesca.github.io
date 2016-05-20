@@ -205,13 +205,13 @@
 				</section>
 				
 				<!-- Start contact section -->
-				<footer id="footer" role="contentinfo">
+				<footer id="footer" role="contentinfo" class="page-footer">
 					<div class="container">
 						<div class="row">
 							<div class="col s12 m6 l6">
 								<h3 class="blue-grey-text text-darken-3">Let's Work Together</h3>
 								<p class="blue-grey-text text-darken-3">Thanks for taking the time to contact us. Please send some information on your project so we can determine how best to help you.</p>
-								<p class="blue-grey-text text-darken-3">After a few initial emails to confirm we're a good fit, we’ll schedule a quick phone call to review the project and get to know each other. We do have a $500 minimum, which is the development cost of a standard website.</p>
+								<p class="blue-grey-text text-darken-3">After a few initial emails to confirm we're a good fit, we’ll schedule a quick phone call to review the project and get to know each other. We do have a $300 minimum, which is the development cost of a standard website.</p>
 							</div>
 							<form class="col s12 m6 l6" id="contact_form" action="https://formspree.io/alberto.gonesca@gmail.com" method="post">
 								<div class="row">
@@ -258,6 +258,9 @@
 							</form>
 						</div>
 					</div>
+					<div class="footer-copyright valign-wrapper">
+            			<h6 class="center copy-info blue-grey-text text-darken-3">COPYRIGHT © 2016 GONESCA - All Rights Reserved</h6>
+          			</div>
 				</footer>
 				<!-- End contact section -->
 				
@@ -271,6 +274,21 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 		<!-- Custom Script -->
 		<script type="text/javascript" src="js/script.js"></script>
+		
+		
+		<script type="text/javascript">
+ 			var options = [
+			{selector: '#staggered-test', offset: 500, callback: function() {
+			Materialize.showStaggeredList("#staggered-test");
+			$("#call-3").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 500});
+			} },
+			{selector: '#image-test', offset: 500, callback: function() {
+			Materialize.fadeInImage("#image-test");
+			$("#call-4").velocity({ backgroundColor: "#333", color: "#ef5350" }, {duration: 500});
+			} }
+			];
+			Materialize.scrollFire(options);
+		</script>
 		
 	</body>
 </html>
