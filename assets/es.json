@@ -1,0 +1,35 @@
+{
+  "values":{
+    "Our services": "Servicios",
+    "Projects": "Proyectos",
+    "Contact": "Contacto",
+    "Banner": "Creamos páginas web que son rápidas, seguras y fácil de administrar",
+    "Full service": "Servicio Completo de Diseño Web",
+    "Discovery": "Evaluación",
+    "Design": "Diseño",
+    "Development": "Desarrollo",
+    "Discovery description": "Evaluaremos tus requisitos y definiremos una solución que se adapte a tus necesidades. Una vez completada esta fase, tendremos un esquema del diseño y un alcance de trabajo definido para las siguientes dos fases.",
+    "Design description": "Nuestro diseñador trabajará contigo para crear un diseño que luzca genial y esté optimizado tanto para computadoras de escritorio como para dispositivos móviles, que permita convertir visitantes en nuevos clientes.",
+    "Development description": "Construiremos tu nuevo sitio web para basado en el diseño aprobado y aseguraremos que todo el contenido se pueda manejar de una manera sencilla. Puedes revisar nuestros trabajos anteriores para ver ejemplos reales.",
+    "Websites we build": "Nuestros Sitios Web Son",
+    "Wordpress": "Creamos sitios web usando la plataforma WordPress, lo que hace que editar y administrar tu página sea tan simple como editar un documento de Word. Para sitios más complejos, dedicamos suficiente tiempo y esfuerzo en el diseño para que incluso usuarios sin conocimiento técnico puedan administrarlo facilmente.",
+    "Template": "Identificaremos todas las diferentes maneras en las que quieres presentar tu contenido y crearemos plantillas para hacer esas páginas. Incluso páginas de inicio complejas serán fácil de crear y mantener.",
+    "Responsive": "Tu sitio web debe trabajar perfectamente en cualquier dispositivo. Un diseño web adaptable permitirá a los elementos de la página ajustarse automáticamente para celulares y tablas, como por ejemplo reorganizando bloques de contenido y menus desplegables.",
+    "Experience": "Gracias a nuestra experiencia con la plataforma WordPress, conocemos la forma ideal de implementar la funcionalidad que desees. Nos convertiremos en tu socio técnico, no simplemente tu programador web. Daremos recomendaciones técnicas y de hospedaje, para asegurar el rendimiento ideal de tu sitio web.",
+    "Training": "Necesitas ayuda aprendiendo sobre la plataforma WordPress? Tenemos un acuerdo con el proveedor WP101 para compartir sus videos de entrenamiento sobre la administración de tu sitio web, siempre disponible y actualizados.",
+    "Update": "Tu sitio web se hará mejor con cada actualización de WordPress. Construiremos tu sitio web siguiendo los lineamientos de WordPress y mejores prácticas de las industria, así no habrá ningún problema a la hora de actualizar el software.",
+    "Previous work": "Trabajos Previos",
+    "Work together": "Vamos a trabajar juntos",
+    "Thanks for contacting": "Gracias por tomarte el tiempo para contactarnos. Por favor envianos información básica de tu proyecto para que podamos determinar la mejor forma en la que podemos ayudarte.",
+    "After contact": "Después de un par de correos para confirmar que somos el proveedor perfecto para el trabajo, nos pondremos en contacto via telefónica para evaluar el proyecto y poder conocernos un poco mejor. Tenemos un mínimo de 25.000 Bs, que es el precio de desarrollo de un sitio web estándar.",
+    "Name": "Tu Nombre",
+    "Email": "Tu Correo Electrónico",
+    "Phone": "Tu Número Telefónico",
+    "Website": "Tu Dirección Web",
+    "Subject": "Asunto",
+    "Message": "Mensaje",
+    "Not email": "No es un correo válido",
+    "Not telephone": "No es un teléfono válido"
+  }
+}
+
