@@ -6,6 +6,8 @@
   1. Preloader
   2. Mobile menu
   3. Smooth menu scrolling
+  4. Scrollfire
+  5. Load localize file
   
  **/
 
@@ -83,6 +85,13 @@ jQuery(function($){
 	/* End menu scrolling */
 	
 	/* ----------------------- */
+	/*  4. Load localize file  */
+	/* ----------------------- */
+	
+	var language = "es";
+	loadJSON(language);
+	
+	/* ----------------------- */
 	/*     5. Scrollfire       */
 	/* ----------------------- */
 	
@@ -154,3 +163,15 @@ jQuery(function($){
 	Materialize.scrollFire(options);
 
 });
+
+function loadJSON(lan){
+		$.getJSON("http://gonesca.github.io/assets/" + lan + ".json").done(function(text){
+			i18n.translator.add(text);
+		});
+	};
+
+function changeLanguage(){
+	for (var object in $(".localize") ){
+		$(object).text($(object).attr("id").substring(4));
+	};
+};

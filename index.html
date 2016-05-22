@@ -53,16 +53,16 @@
 							
 								<!-- Website menu -->
 								<ul class="right hide-on-med-and-down custom-nav menu-scroll">
-									<li><a href="#services" class="blue-grey-text text-lighten-4 menu1">Our Services</a></li>
-									<li><a href="#projects" class="blue-grey-text text-lighten-4 menu2">Projects</a></li>
-									<li><a href="#footer" class="blue-grey-text text-lighten-4 menu3">Contact</a></li>
+									<li><a href="#services" class="blue-grey-text text-lighten-4 localize" id="loc_services1">Our Services</a></li>
+									<li><a href="#projects" class="blue-grey-text text-lighten-4 localize" id="loc_projects1">Projects</a></li>
+									<li><a href="#footer" class="blue-grey-text text-lighten-4 localize" id="loc_contact1">Contact</a></li>
 								</ul>
 							
 								<!-- Website menu for Mobile-->
 								<ul class="side-nav menu-scroll" id="slide-out">
-									<li><a href="#services" class="blue-grey-text text-darken-3">Our Services</a></li>
-									<li><a href="#projects" class="blue-grey-text text-darken-3">Projects</a></li>
-									<li><a href="#footer" class="blue-grey-text text-darken-3">Contact</a></li>
+									<li><a href="#services" class="blue-grey-text text-darken-3 localize" id="loc_services2">Our Services</a></li>
+									<li><a href="#projects" class="blue-grey-text text-darken-3 localize" id="loc_projects2">Projects</a></li>
+									<li><a href="#footer" class="blue-grey-text text-darken-3 localize" id="loc_contact2">Contact</a></li>
 								</ul>
 								<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 							
@@ -80,7 +80,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col s12">
-									<h1 class="home-title center blue-grey-text text-lighten-4">We build websites that are fast, secure, and easy to manage. <script>i18n("Banner");</script></h1>
+									<h1 class="home-title center blue-grey-text text-lighten-4 localize" id="loc_home_banner">We build websites that are fast, secure, and easy to manage.</h1>
 								</div>
 							</div>
 						</div>
@@ -93,8 +93,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col s12">
-								<h2 class="center blue-grey-text text-darken-3">Full Service Website Design</h2>
-								<p class="blue-grey-text text-darken-3 center">When building a website, it’s best to assemble a team that can take a holistic approach based on your specific needs. Our team has the experience to deliver the results you need. We collaborate on a discovery phase, then design and develop your new website. Here’s how it works:</p>
+								<h2 class="center blue-grey-text text-darken-3 localize" id="loc_full_service">Full Service Website Design</h2>
+								<p class="blue-grey-text text-darken-3 center localize" id="loc_service_description">When building a website, it’s best to assemble a team that can take a holistic approach based on your specific needs. Our team has the experience to deliver the results you need. We collaborate on a discovery phase, then design and develop your new website. Here’s how it works:</p>
 								<div class="row">
 									<div class="col s12 m4 l4">
 										<div class="row">
@@ -272,16 +272,10 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<!-- Materialize -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+		<!-- Localization -->
+		<script type="text/javascript" src="js/i18n.min.js"></script>
 		<!-- Custom Script -->
 		<script type="text/javascript" src="js/script.js"></script>
-		
-		
-		<script type="text/javascript" src="js/i18n.min.js"></script>
-		<script>
-		$.ajax("assets/es.json").done(function(text){
-			i18n.translator.add(text);
-		});
-		</script>
 		
 	</body>
 </html>
