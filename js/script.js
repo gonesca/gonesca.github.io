@@ -173,6 +173,6 @@ function loadJSON(lan){
 function changeLanguage(){
 	var localize = $(".localize");
 	for (var i = 0; i < localize.size(); i++ ){
-		$(object[i]).text($(object[i]).attr("id").substring(4));
+		$(localize[i]).text($(localize[i]).attr("id").substring(4));
 	};
 };
