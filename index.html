@@ -279,8 +279,7 @@
 		<script type="text/javascript" src="js/i18n.min.js"></script>
 		<script>
 		$.ajax("assets/es.json").done(function(text){
-			data = JSON.parse(text);
-			i18n.translator.add(data);
+			i18n.translator.add(text);
 		});
 		</script>
 		
