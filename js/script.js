@@ -96,26 +96,26 @@ jQuery(function($){
 	/* ----------------------- */
 	
 	var options = [
-			{selector: '#show1', offset: 150, callback: function() {
-			Materialize.fadeInImage("#show1");
+			{selector: '#loc_discovery', offset: 150, callback: function() {
+			Materialize.fadeInImage("#loc_discovery");
 			} },
-			{selector: '#show2', offset: 200, callback: function() {
-			Materialize.fadeInImage("#show2");
+			{selector: '#loc_discovery_description', offset: 200, callback: function() {
+			Materialize.fadeInImage("#loc_discovery_description");
 			} },
-			{selector: '#show3', offset: 150, callback: function() {
-			Materialize.fadeInImage("#show3");
+			{selector: '#loc_design', offset: 150, callback: function() {
+			Materialize.fadeInImage("#loc_design");
 			} },
-			{selector: '#show4', offset: 200, callback: function() {
-			Materialize.fadeInImage("#show4");
+			{selector: '#loc_design_description', offset: 200, callback: function() {
+			Materialize.fadeInImage("#loc_design_description");
 			} },
-			{selector: '#show5', offset: 150, callback: function() {
-			Materialize.fadeInImage("#show5");
+			{selector: '#loc_development', offset: 150, callback: function() {
+			Materialize.fadeInImage("#loc_development");
 			} },
-			{selector: '#show6', offset: 200, callback: function() {
-			Materialize.fadeInImage("#show6");
+			{selector: '#loc_development_description', offset: 200, callback: function() {
+			Materialize.fadeInImage("#loc_development_description");
 			} },
-			{selector: '#show7', offset: 80, callback: function() {
-			Materialize.fadeInImage("#show7");
+			{selector: '#loc_we_build', offset: 80, callback: function() {
+			Materialize.fadeInImage("#loc_we_build");
 			} },
 			{selector: '#show8', offset: 200, callback: function() {
 			Materialize.fadeInImage("#show8");
@@ -141,20 +141,20 @@ jQuery(function($){
 			{selector: '#show15', offset: 200, callback: function() {
 			Materialize.fadeInImage("#show15");
 			} },
-			{selector: '#show16', offset: 80, callback: function() {
-			Materialize.fadeInImage("#show16");
+			{selector: '#loc_previous_work', offset: 80, callback: function() {
+			Materialize.fadeInImage("#loc_previous_work");
 			} },
-			{selector: '#show17', offset: 100, callback: function() {
-			Materialize.fadeInImage("#show17");
+			{selector: '#loc_work_together', offset: 100, callback: function() {
+			Materialize.fadeInImage("#loc_work_together");
 			} },
-			{selector: '#show18', offset: 80, callback: function() {
-			Materialize.fadeInImage("#show18");
+			{selector: '#loc_look_work', offset: 80, callback: function() {
+			Materialize.fadeInImage("#loc_look_work");
 			} },
-			{selector: '#show19', offset: 100, callback: function() {
-			Materialize.fadeInImage("#show19");
+			{selector: '#loc_thanks_contact', offset: 100, callback: function() {
+			Materialize.fadeInImage("#loc_thanks_contact");
 			} },
-			{selector: '#show20', offset: 100, callback: function() {
-			Materialize.fadeInImage("#show20");
+			{selector: '#loc_after_contact', offset: 100, callback: function() {
+			Materialize.fadeInImage("#loc_after_contact");
 			} },
 			{selector: '#contact_form', offset: 200, callback: function() {
 			Materialize.fadeInImage("#contact_form");
@@ -173,6 +173,6 @@ function loadJSON(lan){
 function changeLanguage(){
 	var localize = $(".localize");
 	for (var i = 0; i < localize.size(); i++ ){
-		$(localize[i]).text($(localize[i]).attr("id").substring(4));
+		$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
 	};
 };
