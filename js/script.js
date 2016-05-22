@@ -165,7 +165,7 @@ jQuery(function($){
 });
 
 function loadJSON(lan){
-		$.getJSON("http://gonesca.github.io/assets/" + lan + ".json").done(function(text){
+		$.getJSON("localize/" + lan + ".json").done(function(text){
 			i18n.translator.add(text);
 		});
 	};
