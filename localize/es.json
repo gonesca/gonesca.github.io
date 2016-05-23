@@ -4,7 +4,7 @@
   	"eng2": "English",
   	"esp1": "Español",
   	"esp2": "Español",
-  	"language": "ES",
+  	"language": "<i class='material-icons right'>language</i>ES",
     "services1": "Servicios",
     "projects1": "Proyectos",
     "contact1": "Contacto",
@@ -14,9 +14,9 @@
     "home_banner": "Creamos páginas web que son rápidas, seguras y fácil de administrar",
     "full_service": "Servicio Completo de Diseño Web",
     "service_description": "Al desarrollar un sitio web, lo mejor es armar un equipo que pueda tomar un enfoque global basado en las necesidades específicas del diseño. Nuestro equipo tiene la experiencia para entregar los resultados que desees. Trabajamos en conjunto en la fase de evaluación, diseño y desarrollo del nuevo sitio web. Así es como funciona:",
-    "discovery": "Evaluación",
-    "design": "Diseño",
-    "development": "Desarrollo",
+    "discovery": "<i class='material-icons blue-grey-text text-darken-3 large'>assessment</i><br />Evaluación",
+    "design": "<i class='material-icons blue-grey-text text-darken-3 large'>web</i><br />Diseño",
+    "development": "<i class='material-icons blue-grey-text text-darken-3 large'>code</i><br />Desarrollo",
     "discovery_description": "Evaluaremos tus requisitos y definiremos una solución que se adapte a tus necesidades. Una vez completada esta fase, tendremos un esquema del diseño y un alcance de trabajo definido para las siguientes dos fases.",
     "design_description": "Nuestro diseñador trabajará contigo para crear un diseño que luzca genial y esté optimizado tanto para computadoras de escritorio como para dispositivos móviles, que permita convertir visitantes en nuevos clientes.",
     "development_description": "Construiremos tu nuevo sitio web para basado en el diseño aprobado y aseguraremos que todo el contenido se pueda manejar de una manera sencilla. Puedes revisar nuestros trabajos anteriores para ver ejemplos reales.",
@@ -41,7 +41,7 @@
     "Not email": "No es un correo válido",
     "Not telephone": "No es un teléfono válido",
     "send_message": "Enviar Mensaje",
-    "copyright": "Derechos de Autor © 2016 GONESCA - Todos los derechos reservados"
+    "copyright": "© 2016 GONESCA - Todos los derechos reservados"
   }
 }
 

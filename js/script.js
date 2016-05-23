@@ -89,53 +89,32 @@ jQuery(function($){
 	/*  4. Load localize file  */
 	/* ----------------------- */
 	
-	/* Load JSON file */
-	function loadJSON(lan){
-		$.getJSON("localize/" + lan + ".json").done(function(text){
-			i18n.translator.add(text);
-		});
-	};
+	/* Finding all links to change language */
+	menuLanguage = $(".menu-language");
+	languageItems = menuLanguage.find("a");
 	
-	/* Perform String translation */
-	function changeLanguage(){
-		var localize = $(".localize");
-		for (var i = 0; i < localize.size(); i++ ){
-			$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
-		};
-	};
-	
-	/* Assign language file */
-	var language = "es";
-	loadJSON(language);
-	/* changeLanguage(); */
-	
-	/* Change language if English is selected */
-	$("#loc_eng1").click(function(){
-		var language = "en";
-		loadJSON(language);
-		changeLanguage();
-		return false;
-	});
-	$("#loc_eng2").click(function(){
-		var language = "en";
-		loadJSON(language);
-		changeLanguage();
-		return false;
+	/* If links are clicked function */
+	languageItems.click(function(e){
+		
+	  /* Finding all strings to translate */
+	  var localize = $(".localize");
+	  
+	  /* Finding language to translate */
+	  langToChange = $(this).attr("id").substring(4,6);
+	  
+	  
+	  $.getJSON("localize/" + langToChange + ".json").done(function(text){ // Loading localize file
+			i18n.translator.add(text);		// Creating translation script
+			
+			/* Translating all strings */
+			for (var i = 0; i < localize.size(); i++ ){
+				$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
+	  		};
+	  });
+	  
+	  e.preventDefault();
 	});
 	
-	/* Change language if Spanish is selected */
-	$("#loc_esp1").click(function(){
-		var language = "es";
-		loadJSON(language);
-		changeLanguage();
-		return false;
-	});
-	$("#loc_esp2").click(function(){
-		var language = "es";
-		loadJSON(language);
-		changeLanguage();
-		return false;
-	});
 	
 	/* ----------------------- */
 	/*     5. Scrollfire       */
