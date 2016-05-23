@@ -89,8 +89,53 @@ jQuery(function($){
 	/*  4. Load localize file  */
 	/* ----------------------- */
 	
+	/* Load JSON file */
+	function loadJSON(lan){
+		$.getJSON("localize/" + lan + ".json").done(function(text){
+			i18n.translator.add(text);
+		});
+	};
+	
+	/* Perform String translation */
+	function changeLanguage(){
+		var localize = $(".localize");
+		for (var i = 0; i < localize.size(); i++ ){
+			$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
+		};
+	};
+	
+	/* Assign language file */
 	var language = "es";
 	loadJSON(language);
+	/* changeLanguage(); */
+	
+	/* Change language if English is selected */
+	$("#loc_eng1").onclick(function(){
+		var language = "en";
+		loadJSON(language);
+		changeLanguage();
+		return false;
+	});
+	$("#loc_eng2").onclick(function(){
+		var language = "en";
+		loadJSON(language);
+		changeLanguage();
+		return false;
+	});
+	
+	/* Change language if Spanish is selected */
+	$("#loc_esp1").onclick(function(){
+		var language = "es";
+		loadJSON(language);
+		changeLanguage();
+		return false;
+	});
+	$("#loc_esp2").onclick(function(){
+		var language = "es";
+		loadJSON(language);
+		changeLanguage();
+		return false;
+	});
 	
 	/* ----------------------- */
 	/*     5. Scrollfire       */
@@ -164,16 +209,3 @@ jQuery(function($){
 	Materialize.scrollFire(options);
 
 });
-
-function loadJSON(lan){
-		$.getJSON("localize/" + lan + ".json").done(function(text){
-			i18n.translator.add(text);
-		});
-	};
-
-function changeLanguage(){
-	var localize = $(".localize");
-	for (var i = 0; i < localize.size(); i++ ){
-		$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
-	};
-};
