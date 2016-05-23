@@ -89,6 +89,17 @@ jQuery(function($){
 	/*  4. Load localize file  */
 	/* ----------------------- */
 	
+	/* Translating on loading of website to Spanish */
+	var localize = $(".localize");
+	$.getJSON("localize/es.json").done(function(text){ // Loading localize file
+			i18n.translator.add(text);		// Creating translation script
+			
+			/* Translating all strings */
+			for (var i = 0; i < localize.size(); i++ ){
+				$(localize[i]).html(i18n($(localize[i]).attr("id").substring(4)));
+	  		};
+	  });
+	
 	/* Finding all links to change language */
 	menuLanguage = $(".menu-language");
 	languageItems = menuLanguage.find("a");
