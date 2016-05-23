@@ -108,7 +108,7 @@ jQuery(function($){
 			
 			/* Translating all strings */
 			for (var i = 0; i < localize.size(); i++ ){
-				$(localize[i]).text(i18n($(localize[i]).attr("id").substring(4)));
+				$(localize[i]).html(i18n($(localize[i]).attr("id").substring(4)));
 	  		};
 	  });
 	  
