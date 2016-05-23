@@ -110,13 +110,13 @@ jQuery(function($){
 	/* changeLanguage(); */
 	
 	/* Change language if English is selected */
-	$("#loc_eng1").onclick(function(){
+	$("#loc_eng1").click(function(){
 		var language = "en";
 		loadJSON(language);
 		changeLanguage();
 		return false;
 	});
-	$("#loc_eng2").onclick(function(){
+	$("#loc_eng2").click(function(){
 		var language = "en";
 		loadJSON(language);
 		changeLanguage();
@@ -124,13 +124,13 @@ jQuery(function($){
 	});
 	
 	/* Change language if Spanish is selected */
-	$("#loc_esp1").onclick(function(){
+	$("#loc_esp1").click(function(){
 		var language = "es";
 		loadJSON(language);
 		changeLanguage();
 		return false;
 	});
-	$("#loc_esp2").onclick(function(){
+	$("#loc_esp2").click(function(){
 		var language = "es";
 		loadJSON(language);
 		changeLanguage();
