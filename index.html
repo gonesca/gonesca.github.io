@@ -44,6 +44,24 @@
 			
 			<!-- Start navigation menu -->
 			<header id="header" role="banner">
+				
+				<!-- Bottom language picker -->
+				<div id="languages">
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="#" class="blue-grey-text text-darken-3 localize" id="loc_eng1">English</a></li>
+						<li><a href="#" class="blue-grey-text text-darken-3 localize" id="loc_esp2">Español</a></li>
+					</ul>
+					<nav>
+						<div class="nav-wrapper blue-grey lighten-5">
+							<ul class="hide-on-med-and-down">
+								<li><a class="dropdown-button blue-grey-text text-darken-3 localize" href="#" data-activates="dropdown1" id="loc_language"><i class="material-icons right">language</i>EN</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<!-- End language picker -->
+				
+				<!-- Site Navigation Bar -->
 				<div class="navbar-fixed">
 					<nav>
 						<div class="nav-wrapper blue-grey darken-3">
@@ -63,15 +81,17 @@
 									<li><a href="#services" class="blue-grey-text text-darken-3 localize" id="loc_services2">Our Services</a></li>
 									<li><a href="#projects" class="blue-grey-text text-darken-3 localize" id="loc_projects2">Projects</a></li>
 									<li><a href="#footer" class="blue-grey-text text-darken-3 localize" id="loc_contact2">Contact</a></li>
+									<li class="divider"></li>
+									<li><a href="#" class="blue-grey-text text-darken-3 localize" id="loc_eng2">English</a></li>
+									<li><a href="#" class="blue-grey-text text-darken-3 localize" id="loc_esp2">Español</a></li>
 								</ul>
 								<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-							
 							
 						</div>
 					</nav>
 				</div>
 			</header>
-			<!-- End navigation menu -->
+			<!-- End Site Navigation Bar -->
 
 			<div class="main-wrapper"><main role="main">
 				
@@ -80,7 +100,7 @@
 						<div class="container">
 							<div class="row">
 								<div class="col s12">
-									<h1 class="home-title center blue-grey-text text-lighten-4 localize" id="loc_home_banner">We build websites that are fast, secure, and easy to manage.</h1>
+									<h1 class="home-title center blue-grey-text text-lighten-4 localize" id="loc_home_banner">We build websites that are fast, secure, and easy to manage</h1>
 								</div>
 							</div>
 						</div>
@@ -259,7 +279,7 @@
 						</div>
 					</div>
 					<div class="footer-copyright valign-wrapper">
-            			<h6 class="center copy-info blue-grey-text text-darken-3">COPYRIGHT © 2016 GONESCA - All Rights Reserved</h6>
+            			<h6 class="center copy-info blue-grey-text text-darken-3 localize" id="loc_copyright">COPYRIGHT © 2016 GONESCA - All Rights Reserved</h6>
           			</div>
 				</footer>
 				<!-- End contact section -->

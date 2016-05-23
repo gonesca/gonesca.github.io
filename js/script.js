@@ -30,6 +30,7 @@ jQuery(function($){
   	
   	/* Menu icon appear in mobile view */
 	jQuery(".button-collapse").sideNav({closeOnClick: true});
+	$(".dropdown-button").dropdown({ hover: false });
 	
 	/* ----------------------- */
 	/*   3. Menu scrolling     */

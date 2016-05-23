@@ -1,5 +1,10 @@
 {
   "values":{
+  	"eng1": "English",
+  	"eng2": "English",
+  	"esp1": "Español",
+  	"esp2": "Español",
+  	"language": "ES",
     "services1": "Servicios",
     "projects1": "Proyectos",
     "contact1": "Contacto",
@@ -24,7 +29,7 @@
     "update": "Tu sitio web se hará mejor con cada actualización de WordPress. Construiremos tu sitio web siguiendo los lineamientos de WordPress y mejores prácticas de las industria, así no habrá ningún problema a la hora de actualizar el software.",
     "previous_work": "Trabajos Previos",
     "look_work": "Puedes echar un vistazo a nuestros trabajos previos, proyectos y clientes.",
-    "work_together": "Vamos a trabajar juntos",
+    "work_together": "Trabajemos juntos",
     "thanks_contact": "Gracias por tomarte el tiempo para contactarnos. Por favor envianos información básica de tu proyecto para que podamos determinar la mejor forma en la que podemos ayudarte.",
     "after_contact": "Después de un par de correos para confirmar que somos el proveedor perfecto para el trabajo, nos pondremos en contacto via telefónica para evaluar el proyecto y poder conocernos un poco mejor. Tenemos un mínimo de 25.000 Bs, que es el precio de desarrollo de un sitio web estándar.",
     "Name": "Tu Nombre",
@@ -34,7 +39,9 @@
     "Subject": "Asunto",
     "Message": "Mensaje",
     "Not email": "No es un correo válido",
-    "Not telephone": "No es un teléfono válido"
+    "Not telephone": "No es un teléfono válido",
+    "send_message": "Enviar Mensaje",
+    "copyright": "Derechos de Autor © 2016 GONESCA - Todos los derechos reservados"
   }
 }
 
